@@ -3,7 +3,7 @@ import { RepositoryItem } from './RepositoryItem';
 
 import '../styles/repositories.scss';
 
-interface Repository {
+export interface Repository {
   name: string;
   description: string;
   url: string;

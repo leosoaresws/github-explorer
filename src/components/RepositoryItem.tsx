@@ -1,9 +1,7 @@
+import { Repository } from './RepositoryList';
+
 interface RepositoryItemProps {
-  repository: {
-    name: string;
-    description: string;
-    url: string;
-  };
+  repository: Repository;
 }
 
 export function RepositoryItem({ repository }: RepositoryItemProps) {
